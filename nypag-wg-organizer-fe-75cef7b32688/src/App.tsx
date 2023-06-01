@@ -19,7 +19,6 @@ function App() {
           <Route path="groups/create" element={<></>} />
           <Route path="profile/:id" element={<></>} />
           <Route path="tasks/:id" element={<></>} />
-          <Route path="groups/create" element={<></>} />
           <Route path="groups/modify/:id" element={<></>} />
           <Route path="leaderboard" element={<></>} />
           <Route path="friends" element={<></>} />
