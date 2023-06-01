@@ -1,0 +1,115 @@
+.navbar-background {
+    background-color: #0069ff;
+    height: 100px;
+}
+
+.text-white {
+    color:white;
+}
+.breadcrumb {
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+.breadcrumb .breadcrumb-item {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+.breadcrumb .active, .nav-link.active {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.breadcrumb-item.active a{
+  color: #00D3CE;
+}
+
+.nav-link, .nav-link > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold !important;
+  text-align: center;
+  margin-top: 5px ;
+}
+
+.nav-link:active {
+  color: #a7a7a7;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.breadcrumb-item:last-child{
+margin-top: 10px;
+}
+
+.breadcrumb-item:last-child.active{
+  margin-top: 5.5px;
+  }
+
+.breadcrumb .breadcrumb-item:not(:last-child)::after {
+  content: "|";
+  margin-left: 5px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.BurgerMenu {
+  width: 100px;
+  height: 100px;
+}
+
+.breadcrumb-item::before {
+  display: none;
+}
+
+#navbarSupportedContent{
+  margin-top: 5%;
+  margin-left: -1.5%;
+  min-width: 110%;
+  max-height: 100%;
+  background-color: #74ff0293;
+}
+#offcanvasNavbar{
+  height: 100%;
+}
+
+.navbar-toggler{
+  float: right;
+  background-color: #fff !important;
+  margin: 25px;
+}
+div#offcanvasNavbar.offcanvas.offcanvas-end.show{
+  background-color: #0069ff;
+}
+.nav-link.active {
+  color: #00D3CE !important;
+}
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.Unterbruch {
+  color: #ffffff;
+  text-align: center;
+}
+div.container-fluid.d-lg-none{
+  display: block;
+  align-items: baseline;
+}
+
+nav.d-lg-inline.d-none{
+  float: right;
+}
+nav.navbar.sticky-top{
+  display: block;
+}
+
